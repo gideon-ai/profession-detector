@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+   <div>
+       
+          <form action="train" method="post">
+               <h1> It is a {{ profession }}! </h1>
+			    
+    <h1>Click below to train the model with this image </h1>
+	<input type="submit" name="train" value="Train the model" />
+</form> 
+             
+      
+   </div>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block content %}
+   <div>
+       
+          <form action="update" method="post">
+    
+	<h1> Enter the actual profession of the person in this image </h1> 
+     
+<select name="profession">
+  <option value="judge">Judge</option>
+  <option value="mechanic">Mechanic</option>
+  <option value="farmer">Farmer</option>
+  <option value="engineer">Engineer</option>
+  <option value="doctor">Doctor</option>
+  <option value="firefighter">Firefighter</option>
+  <option value="chef">Chef</option>
+  <option value="pilot">Pilot</option>
+  <option value="police">Police</option>
+  <option value="waiter">Waiter</option>
+  <option value="other">Other</option>
+</select>        
+	<input type="submit" name="train" value="Train the model" />
+</form> 
+             
+      
+   </div>
+{% endblock %}
